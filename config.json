@@ -1,0 +1,1 @@
+{"severity_level": "WARNING", "js_files_extensions": [".js", ".jsx"], "view_files_extensions": [".html", ".html.twig"], "codesniffer_path": "php_codesniffer/scripts/phpcs", "ignore_js": "true", "ignore_view_files": "true", "project_path": "~/Sites/s7project/Whitelabel/ClientBundle/Controller"}
