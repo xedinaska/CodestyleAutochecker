@@ -21,3 +21,9 @@ class GitHandler:
         system_response = self.command_runner.execute(command=git_commit_command)
 
         return system_response
+
+    def clone(self, repo):
+        git_clone_command = 'cd ' + self.project_path + ' && git clone ' + repo
+        system_response = self.command_runner.execute(command=git_clone_command)
+
+        return system_response

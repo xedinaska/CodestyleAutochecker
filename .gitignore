@@ -1,1 +1,4 @@
 .DS_Store
+PHP_CodeSniffer
+.idea
+__pycache__
